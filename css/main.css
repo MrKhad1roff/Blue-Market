@@ -259,6 +259,37 @@ ul {
     flex-direction: column;
     row-gap: 5px;
 }
-
-
-
+footer{
+    width: 100%;
+    height: 130px;
+    background:#3FA5D5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 120px 0 100px;
+}
+.footer__title{
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+.footer__data{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__data-number{
+    color: white;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer__data-email{
+    color: white;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 400;
+}
